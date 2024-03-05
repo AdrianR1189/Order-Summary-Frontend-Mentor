@@ -13,11 +13,23 @@
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
-    <img
+    <picture class="backgroundImg">
+      <source
+        srcset="components/images/pattern-background-mobile.svg"
+        media="(max-width: 500px)"
+      />
+      <source srcset="components/images/pattern-background-desktop.svg" />
+      <img
+        class="backgroundImg"
+        src="components/images/pattern-background-desktop.svg"
+        alt="background image"
+      />
+    </picture>
+    <!-- <img
       class="backgroundImg"
       src="components/images/pattern-background-desktop.svg"
       alt="background image"
-    />
+    /> -->
     <main class="container">
       <img
         class="heroImg"
@@ -32,7 +44,7 @@
         </p>
         <section class="planSection">
           <div class="planContainer">
-            <img src="components/images/icon-music.svg" />
+            <img class="musicImg" src="components/images/icon-music.svg" />
             <div class="planDiv">
               <h2>Annual Plan</h2>
               <span class="year">$59.99/year</span>
@@ -51,7 +63,9 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a href="https://github.com/AdrianR1189" target="_blank">Adrian Ramirez</a
+      >.
     </footer>
     <script src="script.js"></script>
   </body>
