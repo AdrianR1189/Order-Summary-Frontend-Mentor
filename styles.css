@@ -43,6 +43,9 @@ body {
   align-items: center;
   justify-content: center;
   background: var(--Pale-blue);
+  font-family: 'Red Hat Display', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .backgroundImg {
@@ -74,20 +77,69 @@ body {
   height: 480px;
 }
 h1 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-optical-sizing: auto;
   font-weight: 900;
-  font-style: normal;
   font-size: 32px;
+  color: var(--Dark-blue);
 }
 p {
-  font-family: 'Red Hat Display', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   text-align: center;
   width: 295px;
+  color: var(--Desaturated-blue);
+}
+
+.planSection {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+button {
+  cursor: pointer;
+}
+.planContainer,
+.paymentBtn,
+.cancelBtn {
+  width: 355px;
+  font-family: inherit;
+  border-radius: 10px;
+}
+.paymentBtn,
+.cancelBtn {
+  height: 50px;
+  border: none;
+}
+.planContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--Very-pale-blue);
+  height: 98px;
+}
+.planDiv {
+}
+h2 {
+  color: var(--Dark-blue);
+}
+.year {
+  color: var(--Desaturated-blue);
+}
+.changeBtn {
+  color: var(--Bright-blue);
+  font-weight: 900;
+  border: none;
+  background: inherit;
+  font-family: inherit;
+  text-decoration: underline;
+}
+.paymentBtn {
+  background: var(--Bright-blue);
+  color: white;
+}
+.cancelBtn {
+  background: white;
+  color: var(--Desaturated-blue);
 }
 
 .attribution {
