@@ -27,7 +27,7 @@ Desktop
 ![Desktop Screenshot](<Order-Summary-Frontend-Mentor(Desktop-1440w).png>)
 
 Mobile
-![Mobile Screenshot](<Order-Summary-Frontend-Mentor(Mobile-375w).png>)
+![Mobile Screenshot](<img src="Order-Summary-Frontend-Mentor(Mobile-375w).png" width="375">)
 
 ### Links
 
