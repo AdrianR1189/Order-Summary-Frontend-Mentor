@@ -24,10 +24,12 @@ Users should be able to:
 ### Screenshot
 
 Desktop
+
 ![Desktop Screenshot](<Order-Summary-Frontend-Mentor(Desktop-1440w).png>)
 
 Mobile
-![Mobile Screenshot](<img src="Order-Summary-Frontend-Mentor(Mobile-375w).png" width="375">)
+
+<img src="https://raw.githubusercontent.com/AdrianR1189/Order-Summary-Frontend-Mentor/main/Order-Summary-Frontend-Mentor(Mobile-375w).png?token=GHSAT0AAAAAACOS2M523ZDBIO3ZOLOSXMP2ZPH2PVA" width="375">
 
 ### Links
 
